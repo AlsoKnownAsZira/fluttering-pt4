@@ -17,8 +17,7 @@ class _ziraAppState extends State<ziraApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // scaffold kebawah dipisah supaya tidak error
-      home: tutordialogueBox()
-    );
+        // scaffold kebawah dipisah supaya tidak error
+        home: tutorSnackbar());
   }
 }
