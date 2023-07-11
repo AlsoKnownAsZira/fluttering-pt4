@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:section4/widgets/tutorTabBar.dart';
 import 'package:section4/widgets/tutorTextField.dart';
 import 'widgets/tutordialogueBox.dart';
 import './widgets/tutorSnackbar.dart';
@@ -19,6 +20,6 @@ class _ziraAppState extends State<ziraApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
         // scaffold kebawah dipisah supaya tidak error
-        home: tutorTextField());
+        home: tutorTabBar());
   }
 }
