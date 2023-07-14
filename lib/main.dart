@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:section4/widgets/tutorBottomNavBar.dart';
+import 'package:section4/widgets/tutorBottomSheet.dart';
 import 'package:section4/widgets/tutorDropDown.dart';
 import 'package:section4/widgets/tutorTabBar.dart';
 import 'package:section4/widgets/tutorTextField.dart';
@@ -23,6 +24,6 @@ class _ziraAppState extends State<ziraApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
         // scaffold kebawah dipisah supaya tidak error
-        home: tutorBottomNavBar());
+        home: tutorBottomSheet());
   }
 }
